@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-    background-color: #fff;
-    color: #333;
+    color: rgb(0, 32, 51);
+    background: url(../img/BG3.gif) no-repeat;
 }
 
 .game-container {
@@ -17,6 +17,7 @@ body {
     height: 100vh;
     text-align: center;
     padding: 20px;
+    border: #00cc99 2px solid;
 }
 
 #score {
@@ -35,6 +36,12 @@ body {
     cursor: default;
     /*color: #36a2eb;*/
     /*color: #ff6384;*/
+}
+
+.consigne {
+    font-size: 2em;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 /* Animations */
@@ -90,7 +97,7 @@ body {
 /* Progress Bar */
 #progress-bar-container {
     width: 80%;
-    margin: 0 auto 10px auto;
+    margin: 70px auto 10px auto;
     background-color: #ccc;
     border-radius: 5px;
 }
